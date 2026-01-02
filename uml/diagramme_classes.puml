@@ -1,0 +1,12 @@
+@startuml
+class Book
+class User
+class Loan
+class Library
+
+Library -- Book
+Library -- User
+Library -- Loan
+Loan -- Book
+Loan -- User
+@enduml
